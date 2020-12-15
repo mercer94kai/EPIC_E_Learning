@@ -1,0 +1,4 @@
+pages\BasePage.class
+utils\ConfigurationRead.class
+pages\Homepage.class
+pages\Registration.class

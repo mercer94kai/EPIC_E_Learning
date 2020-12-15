@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-11T02:08:28.573Z",
+        "line": 16,
+        "name": "Validate registration process",
+        "description": "",
+        "id": "successfully-register-into-e-learning-website;validate-registration-process;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16348210900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Homepage \u003cBefor login\u003e using \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Step_definations.user_is_on_Homepage_Befor_login_using(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4847561200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicked on Sign_up option",
+            "match": {
+              "location": "Step_definations.clicked_on_Sign_up_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23368600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "redirected to user Registration page",
+            "match": {
+              "location": "Step_definations.redirected_to_user_Registration_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2335630200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"Aomine\",\"Daiki\",\"akadk@tou.com\",\"Akaace\",\"touhou@2020\" \u0026 \"touhou@2020\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aomine\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Daiki\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"akadk@tou.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Akaace\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"touhou@2020\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"touhou@2020\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Step_definations.user_enters_details(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5965674100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicked on Registration button",
+            "match": {
+              "location": "Step_definations.clicked_on_Registration_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 340274600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate acknowlefgement message and clicked on the icon on top right corner \u0026 validate the dropdown with \"Aomine Daiki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aomine Daiki\"",
+                  "offset": 106
+                }
+              ],
+              "location": "Step_definations.validate_acknowlefgement_message_and_clicked_on_the_icon_on_top_right_corner_validate_the_dropdown_with(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2957548500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicked on Homepage button and log out",
+            "match": {
+              "location": "Step_definations.clicked_on_Homepage_button_and_log_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Registration_validation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-11T02:09:01.483Z",
+        "line": 30,
+        "name": "Validate Compose mail functionality",
+        "description": "",
+        "id": "successfully-register-into-e-learning-website;validate-compose-mail-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23203354100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify user logi credentials on Homepage using \"AkaEmpr\",\"rakuzan@2020\"\u0026 \"Akashi Seijuro\" using \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AkaEmpr\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"rakuzan@2020\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Akashi Seijuro\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 96
+                }
+              ],
+              "location": "Step_definations.verify_user_logi_credentials_on_Homepage_using_using(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4549638400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicked on Compose option",
+            "match": {
+              "location": "Step_definations.clicked_on_Compose_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15082640900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters \"naveen\",\"Test1\" \u0026 \"Something\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Test1\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Something\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Step_definations.user_enters_details(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4098285600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicked on Send Message button",
+            "match": {
+              "location": "Step_definations.clicked_on_Send_Message_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110181100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user gets the confirmation message",
+            "match": {
+              "location": "Step_definations.user_gets_the_confirmation_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138284300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicked on top right corner",
+            "match": {
+              "location": "Step_definations.clicked_on_top_right_corner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1733300300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicked on Logout option",
+            "match": {
+              "location": "Step_definations.clicked_on_Logout_option()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Compose_mail_functionality_validation"
+          }
+        ]
+      }
+    ],
+    "name": "Successfully register into E Learning website",
+    "description": "\t\t\t\t\u0026 send a mail using compose option",
+    "id": "successfully-register-into-e-learning-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Epic.feature",
+    "tags": []
+  }
+]

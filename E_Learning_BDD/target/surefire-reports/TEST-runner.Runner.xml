@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.Runner" time="84.274" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\KaifaMandal\eclipse-workspace\E_Learning_BDD\target\test-classes;C:\Users\KaifaMandal\eclipse-workspace\E_Learning_BDD\target\classes;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-java\4.8.1\cucumber-java-4.8.1.jar;C:\Users\KaifaMandal\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-core\4.8.1\cucumber-core-4.8.1.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-junit\4.8.1\cucumber-junit-4.8.1.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\KaifaMandal\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\KaifaMandal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KaifaMandal\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\KaifaMandal\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\KaifaMandal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\KaifaMandal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\KaifaMandal\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\KaifaMandal\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\KaifaMandal\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\KaifaMandal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\KaifaMandal\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.0.12\extentreports-cucumber4-adapter-1.0.12.jar;C:\Users\KaifaMandal\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\KaifaMandal\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\KaifaMandal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KaifaMandal\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\KaifaMandal\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\KaifaMandal\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\KaifaMandal\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\KaifaMandal\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\KaifaMandal\AppData\Local\Temp\surefire6615587521348754553\surefirebooter6764403897628153063.jar C:\Users\KaifaMandal\AppData\Local\Temp\surefire6615587521348754553 2020-12-11T07-38-25_474-jvmRun1 surefire7918646289442320135tmp surefire_01731669218678849556tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\KaifaMandal\eclipse-workspace\E_Learning_BDD\target\test-classes;C:\Users\KaifaMandal\eclipse-workspace\E_Learning_BDD\target\classes;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-java\4.8.1\cucumber-java-4.8.1.jar;C:\Users\KaifaMandal\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-core\4.8.1\cucumber-core-4.8.1.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\KaifaMandal\.m2\repository\io\cucumber\cucumber-junit\4.8.1\cucumber-junit-4.8.1.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\KaifaMandal\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\KaifaMandal\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\KaifaMandal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KaifaMandal\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\KaifaMandal\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\KaifaMandal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\KaifaMandal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\KaifaMandal\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\KaifaMandal\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\KaifaMandal\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\KaifaMandal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\KaifaMandal\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.0.12\extentreports-cucumber4-adapter-1.0.12.jar;C:\Users\KaifaMandal\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\KaifaMandal\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\KaifaMandal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KaifaMandal\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\KaifaMandal\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\KaifaMandal\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\KaifaMandal\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\KaifaMandal\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\KaifaMandal\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KaifaMandal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="C:\Users\KaifaMandal\eclipse-workspace\E_Learning_BDD"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\KaifaMandal\AppData\Local\Temp\surefire6615587521348754553\surefirebooter6764403897628153063.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="KaifaMandal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\KaifaMandal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KAIFAM~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\KaifaMandal\eclipse-workspace\E_Learning_BDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\PuTTY\;C:\Users\KaifaMandal\Downloads\DRIVERS;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\nodejs\;C:\Users\KaifaMandal\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\KaifaMandal\AppData\Local\Programs\Python\Python38-32\;C:\Users\KaifaMandal\AppData\Local\Microsoft\WindowsApps;C:\Users\KaifaMandal\AppData\Roaming\npm;;C:\Users\KaifaMandal\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Validate registration process" classname="Successfully register into E Learning website" time="33.013">
+    <system-out><![CDATA[Feature: Successfully register into E Learning website
+				& send a mail using compose option
+
+  @Registration_validation
+  Scenario Outline: Validate registration process # src/test/resources/feature/Epic.feature:5
+    Given user is on Homepage <Befor login> using <browser>
+    When clicked on Sign_up option
+    Then redirected to user Registration page
+    And user enters <firstName>,<lastName>,<email>,<userId>,<password> & <confirmPasssword> details
+    Then clicked on Registration button
+    And validate acknowlefgement message and clicked on the icon on top right corner & validate the dropdown with <username>
+    Then clicked on Homepage button and log out
+
+    Examples: 
+
+  @Registration_validation
+  Scenario Outline: Validate registration process                                                                                # src/test/resources/feature/Epic.feature:16
+    Given user is on Homepage <Befor login> using "Chrome"                                                                       # Step_definations.user_is_on_Homepage_Befor_login_using(String)
+    When clicked on Sign_up option                                                                                               # Step_definations.clicked_on_Sign_up_option()
+    Then redirected to user Registration page                                                                                    # Step_definations.redirected_to_user_Registration_page()
+    And user enters "Aomine","Daiki","akadk@tou.com","Akaace","touhou@2020" & "touhou@2020" details                              # Step_definations.user_enters_details(String,String,String,String,String,String)
+    Then clicked on Registration button                                                                                          # Step_definations.clicked_on_Registration_button()
+    And validate acknowlefgement message and clicked on the icon on top right corner & validate the dropdown with "Aomine Daiki" # Step_definations.validate_acknowlefgement_message_and_clicked_on_the_icon_on_top_right_corner_validate_the_dropdown_with(String)
+    Then clicked on Homepage button and log out                                                                                  # Step_definations.clicked_on_Homepage_button_and_log_out()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 37337
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2020 7:38:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validate Compose mail functionality" classname="Successfully register into E Learning website" time="48.933">
+    <system-out><![CDATA[
+  @Compose_mail_functionality_validation
+  Scenario Outline: Validate Compose mail functionality # src/test/resources/feature/Epic.feature:19
+    Given Verify user logi credentials on Homepage using <userId>,<password>& <username> using <browser>
+    When clicked on Compose option
+    And user enters <send_to>,<subject> & <message> details
+    Then clicked on Send Message button
+    And user gets the confirmation message
+    Then clicked on top right corner
+    And clicked on Logout option
+
+    Examples: 
+
+  @Compose_mail_functionality_validation
+  Scenario Outline: Validate Compose mail functionality                                                            # src/test/resources/feature/Epic.feature:30
+    Given Verify user logi credentials on Homepage using "AkaEmpr","rakuzan@2020"& "Akashi Seijuro" using "Chrome" # Step_definations.verify_user_logi_credentials_on_Homepage_using_using(String,String,String,String)
+    When clicked on Compose option                                                                                 # Step_definations.clicked_on_Compose_option()
+Switched frame
+    And user enters "naveen","Test1" & "Something" details                                                         # Step_definations.user_enters_details(String,String,String)
+    Then clicked on Send Message button                                                                            # Step_definations.clicked_on_Send_Message_button()
+    And user gets the confirmation message                                                                         # Step_definations.user_gets_the_confirmation_message()
+    Then clicked on top right corner                                                                               # Step_definations.clicked_on_top_right_corner()
+    And clicked on Logout option                                                                                   # Step_definations.clicked_on_Logout_option()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 34662
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2020 7:39:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
